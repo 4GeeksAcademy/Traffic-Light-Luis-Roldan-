@@ -1,12 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+}
 
-/* 
+body {
+  background-color: aliceblue;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.TopPart {
+  height: 200px;
+  width: 10px;
+  background-color: yellowgreen;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-*/
+.MainContainer {
+  height: 600px;
+  width: 200px;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.RedCircle {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  background-color: red;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.YellowCircle {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  background-color: yellow;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.GreenCircle {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  background-color: green;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Circles {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
