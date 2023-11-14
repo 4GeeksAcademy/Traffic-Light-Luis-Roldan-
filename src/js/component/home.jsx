@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import reactDom from "react-dom";
+import ReactDOM from "react-dom";
 import { Container } from "./Container";
 
-const Home = () => {
+export const Home = () => {
   return (
     <div>
       <Container />
@@ -10,4 +10,6 @@ const Home = () => {
   );
 };
 
-export default Home;
+// export default Home;
+
+ReactDOM.render(<Home />, document.querySelector("#app"));
